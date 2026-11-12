@@ -1,0 +1,62 @@
+WEB INGECAMUR.ES · V7 · 11/11/2026 (selector de idioma ES | EN con banderas)
+====================================
+
+Qué es esta carpeta
+-------------------
+La web completa de ingecamur.es, lista para subir. Es una web estática (solo HTML y CSS):
+no necesita PHP ni base de datos, y se puede alojar gratis. ingecamur.com no se toca.
+
+- 24 páginas: inicio, 6 servicios, abogados, 6 zonas (Murcia, Costa Blanca, Vega Baja,
+  Alcoià, Valencia, Madrid), quiénes somos, contacto, inglés (/en/), aviso legal y privacidad.
+- Enlaces cortos fáciles de escribir: ingecamur.es/encargo, /1, /presupuesto y /formulario
+  llevan al formulario de contacto (Tally «Cuéntanos tu caso»). ingecamur.es/english lleva a /en/.
+- Logo: los PNG oficiales de IDENTIDAD INGECAMUR (carpeta img). Si faltaran, se ve el logo
+  rehecho en SVG con DejaVu Sans y los mismos colores (#FC9C00 naranja, #99CC00 verde).
+- Letra de toda la web: DejaVu Sans (va dentro de estilo.css; no se carga nada de Google).
+- Pie de página: el de la plantilla del certificado (Gran Vía 22, 3 C · Tel. y fax · Móvil · Mail · Web).
+- SEO: título y descripción propios en cada página, sitemap.xml, robots.txt, datos de empresa
+  (schema.org) y preguntas frecuentes marcadas para Google.
+- Sin cookies ni analítica de terceros.
+
+ANTES DE PUBLICAR (pendiente)
+-----------------------------
+1. Titular del aviso legal: Jesús Terol Pérez (hecho). Cambiarlo cuando esté constituida Ingecamur, S.L.P.
+2. WhatsApp, llamadas y móvil: 620 22 77 21 (hecho; el 628 se ha quitado).
+
+Cómo se publica (recomendado: GitHub Pages, gratis)
+---------------------------------------------------
+A) Ya, sin esperar al dominio
+   1. Crear una cuenta gratuita en github.com con ingecamur@ingecamur.com.
+   2. Crear un repositorio público llamado «ingecamur-es» y subir TODO el contenido de esta
+      carpeta (incluidos CNAME y .nojekyll).
+   3. Settings › Pages › Source: «Deploy from a branch», rama main, carpeta / (root).
+      La web queda visible en https://<usuario>.github.io/ingecamur-es/ para revisarla.
+
+B) Cuando IONOS confirme el traslado de ingecamur.es
+   1. IONOS › Dominios y SSL › ingecamur.es › DNS. Borrar los registros A y AAAA de «@» que
+      ponga IONOS y crear:
+        A     @     185.199.108.153
+        A     @     185.199.109.153
+        A     @     185.199.110.153
+        A     @     185.199.111.153
+        CNAME www   <usuario>.github.io
+   2. GitHub › Settings › Pages › Custom domain: ingecamur.es › Save. Cuando salga el
+      candado, marcar «Enforce HTTPS». (Los DNS tardan de minutos a unas horas.)
+   3. No tocar los registros MX: el correo sigue en ingecamur.com.
+
+C) Después de publicar
+   1. Google Search Console: añadir la propiedad ingecamur.es, verificarla con el registro
+      TXT que da Google (en el DNS de IONOS) y enviar https://ingecamur.es/sitemap.xml.
+   2. Tally: añadir al formulario «Cuéntanos tu caso» un campo oculto llamado «origen».
+      La web ya manda origen=ingecamur.es (y ingecamur.es-en desde la página en inglés),
+      así se sabe qué clientes llegan por .es y cuáles por .com.
+
+Contenido duplicado con ingecamur.com
+-------------------------------------
+Los textos de esta web son nuevos (no copiados de ingecamur.com), así que Google no la
+penaliza. Que compartan logo, colores, dirección y teléfonos es normal y no es problema.
+Lo que NO hay que hacer es copiar textos de una web a otra.
+
+Cambios
+-------
+Cada cambio se guarda como carpeta nueva: web_ingecamur_es_V2, V3… sin borrar la anterior.

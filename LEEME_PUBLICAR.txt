@@ -1,6 +1,6 @@
-WEB INGECAMUR.ES · V10 · 12/11/2026 (fotos reales de trabajos: galería de 9 fotos en el inicio y fotos en Antigüedad,
-Segregaciones, Urbanismo y Valencia; sin datos GPS). Sin CNAME hasta que llegue el dominio.
-Falta: foto del edificio de la Gran Vía (se pondrá en la página de Murcia al llegar).
+WEB INGECAMUR.ES · V11 · 12/11/2026: página «Casos reales» (/casos/), página para pedir reseñas
+(ingecamur.es/resena, para mandar por WhatsApp al terminar un trabajo) y guía «Cómo segregar una finca rústica».
+Sin CNAME hasta que llegue el dominio. Falta: foto del edificio de la Gran Vía.
 ====================================
 
 Qué es esta carpeta

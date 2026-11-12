@@ -1,4 +1,4 @@
-WEB INGECAMUR.ES · V7 · 11/11/2026 (selector de idioma ES | EN con banderas)
+WEB INGECAMUR.ES · V8 · 12/11/2026 (4 guías para Google; menú ajustado). Sin CNAME hasta que llegue el dominio.
 ====================================
 
 Qué es esta carpeta

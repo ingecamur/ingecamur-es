@@ -64,4 +64,5 @@
 <script>function copiarTel(b){var t=b.getAttribute('data-tel'),s=b.querySelector('span'),o=s.textContent;function ok(){s.textContent='Copiado: '+t;setTimeout(function(){s.textContent=o},2500)}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,function(){f()})}else f();
 function f(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');ok()}catch(e){s.textContent=t}a.remove()}}</script>
+<script src="../asistente.js"></script>
 </body></html>

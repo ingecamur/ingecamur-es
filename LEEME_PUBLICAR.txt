@@ -62,3 +62,13 @@ Lo que NO hay que hacer es copiar textos de una web a otra.
 Cambios
 -------
 Cada cambio se guarda como carpeta nueva: web_ingecamur_es_V2, V3… sin borrar la anterior.
+
+V12 (13/11/2026) - V11 + asistente guiado
+-----------------------------------------
+- Botón verde «¿Te ayudo?» en todas las páginas (archivo asistente.js), también en inglés en /en/.
+- Al abrir: Medir mi finca · Corregir datos del Catastro · Solicitar un archivo GML · Pedir presupuesto ·
+  Ver más preguntas (15 preguntas con palabras del cliente; incluye la notificación del art. 199).
+- Sin IA, sin cookies. No da precios: deriva a WhatsApp o al formulario, y enlaza a las guías.
+- Pregunta, sin obligar, el municipio y la referencia catastral o dirección.
+- Tally recibe tema, municipio, referencia y canal=asistente (crear campos ocultos con esos nombres).
+- Las carpetas V8 y V9 se hicieron por error sobre la V7: no usarlas.

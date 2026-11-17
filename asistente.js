@@ -29,7 +29,7 @@
     tasacion: { t: 'Sí. Tasamos y valoramos fincas para herencias, repartos entre hermanos, ventas y juicios. Y si hay desacuerdo entre herederos, mediamos.', p: 'tasaciones/', w: 'una tasación' },
     pericial: { t: 'Sí. Hacemos informes periciales de lindes, invasiones de finca, servidumbres y caminos, con medición real y estudio del Registro, el Catastro y fotos aéreas, y vamos al juicio a ratificarlos. Trabajamos también con despachos de abogados.', p: 'periciales/', p2: ['Para abogados', 'abogados/'], w: 'un informe pericial' },
     presupuesto: { t: 'El presupuesto es gratis. El precio depende de la superficie, del terreno y los accesos, de dónde esté la finca y de lo que haya que hacer después (solo medir, o también arreglar Catastro y Registro). Para dártelo nos basta con la referencia catastral o la dirección y, si la tienes, la nota simple o la escritura.', w: 'pedir presupuesto' },
-    zonas: { t: 'Trabajamos en la Región de Murcia, Alicante (Costa Blanca, Vega Baja y el interior), Valencia y Albacete. Para Madrid hacemos sin desplazarnos todo lo que se puede hacer sobre documentación y cartografía.', p: 'zonas/', w: 'trabajar en mi zona' },
+    zonas: { t: 'Trabajamos en la Región de Murcia, Alicante (Costa Blanca, Vega Baja y el interior), Valencia y Albacete. Para otras zonas, consúltanos.', p: 'zonas/', w: 'trabajar en mi zona' },
     otra: { t: 'Cuéntanoslo directamente: por WhatsApp te contesta una persona del equipo, o rellena el formulario y te llamamos.', w: 'una consulta' }
   };
   var TE = {
@@ -56,7 +56,7 @@
     tasacion: { t: 'Yes. We value properties for inheritances, divisions between heirs, sales and court cases, and we mediate when heirs disagree.', w: 'a valuation' },
     pericial: { t: 'Yes. We write expert reports on boundaries, encroachments, easements and paths, and we attend court to ratify them. We also work with law firms.', w: 'an expert report' },
     presupuesto: { t: 'The quote is free. The price depends on the size, the terrain and access, the location and what has to be done afterwards (just the survey, or also Cadastre and Land Registry work). We only need the cadastral reference or the address and, if you have them, the Land Registry extract (nota simple) or the deeds.', w: 'a quote' },
-    zonas: { t: 'We work in the Region of Murcia, Alicante (Costa Blanca, Vega Baja and inland), Valencia and Albacete. For Madrid we do remotely everything that can be done from documents and maps.', w: 'my area' },
+    zonas: { t: 'We work in the Region of Murcia, Alicante (Costa Blanca, Vega Baja and inland), Valencia and Albacete. For other areas, please ask us.', w: 'my area' },
     otra: { t: 'Just tell us: on WhatsApp a member of our team will answer you, or fill in the form and we will call you.', w: 'a question' }
   };
   var L = EN ? {
